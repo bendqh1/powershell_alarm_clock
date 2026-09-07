@@ -1,10 +1,9 @@
 # =========================================
-# CHANGE THIS NUMBER TO SET THE ALARM TIME
+# SET THE ALARM TIME
 # =========================================
 $MINUTES = 1
+$seconds = $MINUTES * 60
 # =========================================
-
-$seconds = $MINUTES * 60 # 1 minute × 60 = 60 seconds
 
 Clear-Host
 
